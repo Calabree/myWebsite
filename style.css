@@ -18,7 +18,7 @@
   li,
   a,
   button {
-      
+
       color: #edf0f1;
       text-decoration: none;
 
@@ -119,20 +119,92 @@
       margin-bottom: 10px;
   }
 
-  #about a{
-    border: none;
-    border-radius: 10px;
-    background-color: rgba(0, 136, 169, 1);
-    
-    padding: 9px 25px;
-    cursor: pointer;
+  #about a {
+      border: none;
+      border-radius: 10px;
+      background-color: rgba(0, 136, 169, 1);
+
+      padding: 9px 25px;
+      cursor: pointer;
   }
 
-  .about-links{
+  .about-links {
       margin: 10px;
-  } 
-  .about-links a{
-
-      margin:2px;
   }
+
+  .about-links a {
+
+      margin: 2px;
+  }
+
   /***************************** End About *****************************/
+
+  /***************************** Begin Projects *****************************/
+  #projects {
+      height: 100vh;
+  }
+
+  /***************************** End Projects *****************************/
+
+
+  #projects {
+      display: grid;
+      grid-template-columns: auto auto;
+  }
+
+  .clctxt {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 100px;
+      color: #edf0f1;
+  }
+
+  .clctxt h3 {
+      
+      font-size: 30px;
+
+  }
+
+  .clctxt p {
+      color: #edf0f1;
+      font-size: 20px;
+
+  }
+
+  .calcproj {
+      height: 650px;
+      width: 450px;
+      margin-left: 100px;
+      margin-bottom: 50px;
+      border-radius: 10px;
+  }
+
+  .todoproj {
+      height: 650px;
+      width: 450px;
+      margin-left: auto;
+      margin-right: 100px;
+      margin-bottom: 50px;
+      border-radius: 10px;
+  }
+
+  .todotxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    color: #edf0f1;
+  }
+
+  .todotxt h3 {
+      color: #edf0f1;
+      font-size: 30px;
+
+  }
+
+  .todotxt p {
+      color: #edf0f1;
+      font-size: 20px;
+
+  }
