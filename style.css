@@ -142,12 +142,6 @@
   /***************************** Begin Projects *****************************/
   #projects {
       height: 100vh;
-  }
-
-  /***************************** End Projects *****************************/
-
-
-  #projects {
       display: grid;
       grid-template-columns: auto auto;
   }
@@ -208,3 +202,5 @@
       font-size: 20px;
 
   }
+
+  /***************************** End Projects *****************************/
