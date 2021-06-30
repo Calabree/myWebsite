@@ -4,7 +4,7 @@
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      background-color: #24252a;
+      background-color: #222831;
 
       font-family: "Roboto", sans-serif;
       font-weight: 500;
@@ -18,13 +18,12 @@
   li,
   a,
   button {
-
       color: #edf0f1;
       text-decoration: none;
 
   }
 
-  /***************************** Begin NavBar *****************************/
+  /***************************** #FF6666 Begin NavBar *****************************/
   header {
       display: flex;
       justify-content: space-between;
@@ -34,20 +33,26 @@
 
   .contact {
       padding: 9px 25px;
-      background-color: rgba(0, 136, 169, 1);
+      /*background-color: rgba(0, 136, 169, 1);*/
+      background-color: #FF6666;
       border-radius: 10px;
       cursor: pointer;
       border: none;
-      transition: all 0.3s ease 0;
+      transition: all .3s ease;
 
   }
 
   .contact:hover {
-      background-color: rgba(0, 136, 169, .8);
+      background-color: #fe4242;
+
   }
 
   .logo {
       cursor: pointer;
+  }
+
+  .logo:hover {
+      color: #FF6666;
   }
 
   .nav-links {
@@ -60,12 +65,12 @@
   }
 
   .nav-links li a {
-      transition: all 0.3s ease 0;
+      transition: .3s;
 
   }
 
   .nav-links li a:hover {
-      color: #0088a9
+      color: #FF6666
   }
 
   /***************************** End NavBar *****************************/
@@ -88,10 +93,15 @@
   #intro a {
       border: none;
       border-radius: 10px;
-      background-color: rgba(0, 136, 169, 1);
+      background-color: #FF6666;
       margin-top: 30px;
       padding: 9px 25px;
       cursor: pointer;
+      transition: all .3s ease;
+  }
+
+  #intro a:hover {
+      background-color: #fe4242;
   }
 
   /***************************** End Intro *****************************/
@@ -122,10 +132,14 @@
   #about a {
       border: none;
       border-radius: 10px;
-      background-color: rgba(0, 136, 169, 1);
-
+      background-color: #FF6666;
       padding: 9px 25px;
       cursor: pointer;
+      transition: all .3s ease;
+  }
+
+  #about a:hover {
+      background-color: #fe4242;
   }
 
   .about-links {
@@ -133,7 +147,6 @@
   }
 
   .about-links a {
-
       margin: 2px;
   }
 
@@ -155,7 +168,7 @@
   }
 
   .clctxt h3 {
-      
+
       font-size: 30px;
 
   }
@@ -183,12 +196,12 @@
       border-radius: 10px;
   }
 
-  .todotxt{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 100px;
-    color: #edf0f1;
+  .todotxt {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 100px;
+      color: #edf0f1;
   }
 
   .todotxt h3 {
@@ -204,3 +217,55 @@
   }
 
   /***************************** End Projects *****************************/
+
+  .contact-me {
+      padding: 100px;
+  }
+
+  .form-group {
+      padding: 5px 0px;
+  }
+
+
+  .form-control {
+      background-color: #393E46;
+      color: white;
+      border: none;
+  }
+
+  .form-control:focus {
+      background-color: #393E46;
+      color: white;
+
+  }
+
+  .form-control:hover {
+    background-color: #434852;
+    color: white;
+
+}
+  .form-control::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #CAD5E2;
+      opacity: 1;
+      /* Firefox */
+  }
+
+  .form-control:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #CAD5E2;
+  }
+
+  .form-control::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #CAD5E2;
+  }
+
+  .btn {
+      background-color: #FF6666;
+      border: none;
+  }
+
+  .btn:hover {
+      background-color: #fe4242;
+  }
