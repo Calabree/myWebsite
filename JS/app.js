@@ -15,7 +15,7 @@ contactForm.addEventListener('submit', (e) => {
     }
 
     let xhr = new XMLHttpRequest()
-    xhr.open('POST', 'https://127.168.1.1:5000')
+    xhr.open('POST', 'https://nodejs-contactme.herokuapp.com/')
     xhr.setRequestHeader('content-type', 'application/json')
     xhr.onload = function(){
         console.log(xhr.responseText)
