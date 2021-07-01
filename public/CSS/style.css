@@ -1,0 +1,275 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      background-color: #222831;
+
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+  }
+
+  body{
+    background-color: #222831; 
+  }
+  html {
+      scroll-behavior: smooth;
+  }
+
+  li,
+  a,
+  button {
+      color: #edf0f1;
+      text-decoration: none;
+
+  }
+
+  /***************************** #FF6666 Begin NavBar *****************************/
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 10%;
+  }
+
+  .contact {
+      padding: 9px 25px;
+      /*background-color: rgba(0, 136, 169, 1);*/
+      background-color: #FF6666;
+      border-radius: 10px;
+      cursor: pointer;
+      border: none;
+      transition: all .3s ease;
+
+  }
+
+  .contact:hover {
+      background-color: #fe4242;
+
+  }
+
+  .logo {
+      cursor: pointer;
+  }
+
+  .logo:hover {
+      color: #FF6666;
+  }
+
+  .nav-links {
+      list-style: none;
+  }
+
+  .nav-links li {
+      display: inline-block;
+      padding: 0 20px;
+  }
+
+  .nav-links li a {
+      transition: .3s;
+
+  }
+
+  .nav-links li a:hover {
+      color: #FF6666
+  }
+
+  /***************************** End NavBar *****************************/
+
+  /***************************** Begin Intro *****************************/
+  #intro {
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  #intro h1 {
+      color: #edf0f1;
+      font-size: 30px;
+
+  }
+
+  #intro a {
+      border: none;
+      border-radius: 10px;
+      background-color: #FF6666;
+      margin-top: 30px;
+      padding: 9px 25px;
+      cursor: pointer;
+      transition: all .3s ease;
+  }
+
+  #intro a:hover {
+      background-color: #fe4242;
+  }
+
+  /***************************** End Intro *****************************/
+
+  /***************************** Begin About *****************************/
+  #about {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  #about h1 {
+      color: #edf0f1;
+      font-size: 40px;
+  }
+
+  #about p {
+      color: #edf0f1;
+      margin-left: 20%;
+      margin-right: 20%;
+      font-size: 25px;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  #about a {
+      border: none;
+      border-radius: 10px;
+      background-color: #FF6666;
+      padding: 9px 25px;
+      cursor: pointer;
+      transition: all .3s ease;
+  }
+
+  #about a:hover {
+      background-color: #fe4242;
+  }
+
+  .about-links {
+      margin: 10px;
+  }
+
+  .about-links a {
+      margin: 2px;
+  }
+
+  /***************************** End About *****************************/
+
+  /***************************** Begin Projects *****************************/
+  #projects {
+      height: 100vh;
+      display: grid;
+      grid-template-columns: auto auto;
+  }
+
+  .clctxt {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 100px;
+      color: #edf0f1;
+  }
+
+  .clctxt h3 {
+
+      font-size: 30px;
+
+  }
+
+  .clctxt p {
+      color: #edf0f1;
+      font-size: 20px;
+
+  }
+
+  .calcproj {
+      height: 650px;
+      width: 450px;
+      margin-left: 100px;
+      margin-bottom: 50px;
+      border-radius: 10px;
+  }
+
+  .todoproj {
+      height: 650px;
+      width: 450px;
+      margin-left: auto;
+      margin-right: 100px;
+      margin-bottom: 50px;
+      border-radius: 10px;
+  }
+
+  .todotxt {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 100px;
+      color: #edf0f1;
+  }
+
+  .todotxt h3 {
+      color: #edf0f1;
+      font-size: 30px;
+
+  }
+
+  .todotxt p {
+      color: #edf0f1;
+      font-size: 20px;
+
+  }
+
+  /***************************** End Projects *****************************/
+
+  .contact-form {
+      padding: 100px;
+  }
+
+  .form-group {
+      padding: 5px 0px;
+  }
+
+
+  .form-control {
+      background-color: #393E46;
+      color: white;
+      border: none;
+  }
+
+  .form-control:focus {
+      background-color: #393E46;
+      color: white;
+
+  }
+
+  .form-control:hover {
+    background-color: #434852;
+    color: white;
+
+}
+  .form-control::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #CAD5E2;
+      opacity: 1;
+      /* Firefox */
+  }
+
+  .form-control:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #CAD5E2;
+  }
+
+  .form-control::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #CAD5E2;
+  }
+
+  .btn {
+      background-color: #FF6666;
+      border: none;
+  }
+
+  .btn:hover {
+      background-color: #fe4242;
+  }
+
